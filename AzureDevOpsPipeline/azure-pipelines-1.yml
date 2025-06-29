@@ -1,13 +1,3 @@
-#-----------------------------------------------------------------
-# Deploy Azure AKS using Terraform - Azure IaC
-#
-# - Add Azure DevOps Service Connection to:
-#   - Azure ARM
-#   - Github
-# - Upload generated SSH key to Azure DevOps > Library > SecureFiles
-# 
-#-----------------------------------------------------------------
-
 trigger:
 - master
 
